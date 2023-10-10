@@ -11,9 +11,9 @@ if wiek < 18:
     print('Brawo, jesteś niepełnoletni')
 elif wiek < 60:
     print('Juz jestes pełnoletni i możesz pracować')
-elif wiek > 60:
+elif wiek <= 100:
     print('Juz jestes na emeruturze')
-elif wiek > 100 and wiek < 120:
+elif wiek < 120:
     print('Uuu, rekord życia')
 else:
     print('Chyba coś kłamiesz')
